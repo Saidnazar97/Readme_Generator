@@ -13,6 +13,25 @@ const questions = [{
     name: "description",
     message: "What is your project description?",
   },
+
+  {
+    type: "input",
+    message: "What command should be run to install dependencies?",
+    name: "installCommand",
+  },
+
+  {
+    type: "input",
+    message: "What command will invoke this app to run?",
+    name: "runCommand",
+  },
+
+  {
+    type: "input",
+    message: "What command will test the app?",
+    name: "testCommand",
+  },
+
   {
     type: "list",
     name: "license",
